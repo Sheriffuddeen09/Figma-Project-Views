@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Figma-Project-Views/static/css/main.5a1ff219.css",
+    "main.js": "/Figma-Project-Views/static/js/main.f5922b8c.js",
+    "static/media/Logo-1.png": "/Figma-Project-Views/static/media/Logo-1.78c6d332515ec879d412.png",
+    "static/media/images5.png": "/Figma-Project-Views/static/media/images5.c002a618aa2cf5d15c3f.png",
+    "static/media/image-1.jpeg": "/Figma-Project-Views/static/media/image-1.415e692dd660728395ec.jpeg",
+    "static/media/image-3.jpeg": "/Figma-Project-Views/static/media/image-3.0141a9f170a6c58911da.jpeg",
+    "static/media/Logo-2.jpeg": "/Figma-Project-Views/static/media/Logo-2.d86ed44036bfd89c67cb.jpeg",
+    "index.html": "/Figma-Project-Views/index.html",
+    "main.5a1ff219.css.map": "/Figma-Project-Views/static/css/main.5a1ff219.css.map",
+    "main.f5922b8c.js.map": "/Figma-Project-Views/static/js/main.f5922b8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a1ff219.css",
+    "static/js/main.f5922b8c.js"
+  ]
+}
