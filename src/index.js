@@ -1,16 +1,22 @@
 import React from 'react';
 import './index.css';
-import {createRoot} from 'react-dom/client'
 import App from './App';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
+import {createRoot} from 'react-dom/client'
 
-const queryClient = new QueryClient()
 const container = document.getElementById('root')
-const root = createRoot(container);
+const root = createRoot(container)
+const queryClient = new QueryClient()
+
 root.render(
   <React.StrictMode>
-     <QueryClientProvider client={queryClient}>
-    <App />
+    <QueryClientProvider client={queryClient}>
+    <Router>
+      <Routes>
+        <Route path='/*' element={<App />}/>
+    </Routes>
+    </Router>
     </QueryClientProvider>
   </React.StrictMode>
 );
